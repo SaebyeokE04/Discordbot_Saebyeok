@@ -1,2 +1,0 @@
-#disco_token.py
-Token = "MTE4NzAyNjA2MjkwODA2Nzg0MA.GfU5aF.86MF2llGvt7PlTzZZKPBW5Rh7Z0Xf13Q3UmhYw"
