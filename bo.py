@@ -66,7 +66,6 @@ async def 날씨(ctx):
     temperature = data["main"]["temp"]
     temp_feel = data["main"]["feels_like"]
     weather = data["weather"]
-    print(weather)
     
     await ctx.send(f"```\n\n현재 지역 : {loc}\n\n현재 온도 : {temperature} °C\n\n체감 온도 : {temp_feel} °C\n\n현재 날씨 : {weather} \n\n```")
 
