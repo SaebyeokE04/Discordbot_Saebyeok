@@ -21,8 +21,8 @@ async def on_message(message):     #안녕으로 시작하는 문장에 반응
         return
     
     if message.content.startswith('안녕'):
-        await message.channel.send('안녕하세요!')
-        await message.author.send("{} | {} 유저님, 환영합니다.".format(message.author, message.author.mention))
+        await message.author.send('안녕하세요!')
+        await message.channel.send("{} | {} 유저님, 환영합니다.".format(message.author, message.author.mention))
     
     await bot.process_commands(message)
 
